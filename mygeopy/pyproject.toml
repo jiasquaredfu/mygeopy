@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "my triangle python package"
 authors = [{name = "jiajia", email="jjnaturalist@gmail.com"}]
 license="MIT"
-license_files = ["LICENSE.txt"]
+license-files = ["LICENSE.txt"]
 
 [project.urls]
 Homepage="https://github.com/jiasquaredfu/mygeopy"

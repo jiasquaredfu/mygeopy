@@ -1,0 +1,20 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
+
+[project]
+name = "mygeopy"
+version = "0.1.0"
+description = "my triangle python package"
+authors = [{name = "jiajia", email="jjnaturalist@gmail.com"}]
+license="MIT"
+license_files = ["LICENSE.txt"]
+
+[project.urls]
+Homepage="https://github.com/jiasquaredfu/mygeopy"
+
+[project.optional-dependencies]
+tests = ["pytest"]
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"
